@@ -1,0 +1,19 @@
+<html>
+    <body>
+
+    <h1 id="innerHTML_demo" onclick="myFunction()">Please click me to know my mood.</h1>
+   
+    <button type="button" onclick="document.getElementById('date_time_button').innerHTML = Date()">
+        Click and see Date and Time.
+    </button>
+    <p id="date_time_button"></p>
+    
+    <script>
+    function myFunction() {
+        document.getElementById("innerHTML_demo").innerHTML = "Happy!";
+    }
+    </script>
+    
+    </body>
+</html>
+    
